@@ -9,10 +9,13 @@ import ru.pr1nkos.behavioral.strategy.Context;
 import ru.pr1nkos.behavioral.strategy.QuickSort;
 import ru.pr1nkos.behavioral.template.Beverage;
 import ru.pr1nkos.behavioral.template.Tea;
-import ru.pr1nkos.behavioral.template.Coffee;
+import ru.pr1nkos.structural.decorator.Coffee;
 import ru.pr1nkos.behavioral.visitor.Directory;
 import ru.pr1nkos.behavioral.visitor.FileClass;
 import ru.pr1nkos.behavioral.visitor.FileSystemSizeVisitor;
+import ru.pr1nkos.structural.decorator.MilkDecorator;
+import ru.pr1nkos.structural.decorator.SimpleCoffee;
+import ru.pr1nkos.structural.decorator.SugarDecorator;
 
 import java.io.File;
 
@@ -158,14 +161,16 @@ public class Main {
          *
          * */
 
-/*        Coffee coffee = new SimpleCoffee();
+/*
+        Coffee coffee = new SimpleCoffee();
+        System.out.println(coffee.getDescription() + " $ " + coffee.getCost());
+        coffee = new SugarDecorator(coffee);
+
         System.out.println(coffee.getDescription() + " $ " + coffee.getCost());
 
         coffee = new MilkDecorator(coffee);
         System.out.println(coffee.getDescription() + " $ " + coffee.getCost());
-
-        coffee = new SugarDecorator(coffee);
-        System.out.println(coffee.getDescription() + " $ " + coffee.getCost());*/
+*/
 
         /*
          *

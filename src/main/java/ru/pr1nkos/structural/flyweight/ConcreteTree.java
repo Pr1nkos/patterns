@@ -1,4 +1,4 @@
-package ru.pr1nkos.structural.lightweight;
+package ru.pr1nkos.structural.flyweight;
 
 public class ConcreteTree implements Tree {
     private String type;

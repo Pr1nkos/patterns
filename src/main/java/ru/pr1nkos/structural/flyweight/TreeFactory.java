@@ -1,4 +1,4 @@
-package ru.pr1nkos.structural.lightweight;
+package ru.pr1nkos.structural.flyweight;
 
 import java.util.HashMap;
 import java.util.Map;
