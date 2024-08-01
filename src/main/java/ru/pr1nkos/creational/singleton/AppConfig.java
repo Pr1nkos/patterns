@@ -1,5 +1,7 @@
 package ru.pr1nkos.creational.singleton;
 
+import lombok.Synchronized;
+
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -16,10 +18,12 @@ public class AppConfig {
         }
     }
 
-    public static synchronized AppConfig getInstance() {
-        if (instance == null) {
-            instance = new AppConfig();
+    @Synchronized
+    public static AppConfig getInstance() {
+        if (instance != null) {
+            return instance;
         }
+        instance = new AppConfig();
         return instance;
     }
 
