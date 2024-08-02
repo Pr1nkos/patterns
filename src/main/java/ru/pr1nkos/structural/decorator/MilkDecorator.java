@@ -4,7 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 
+/**
+ * The type Milk decorator.
+ */
 public class MilkDecorator extends CoffeeDecorator{
+    /**
+     * Instantiates a new Milk decorator.
+     *
+     * @param coffee the coffee
+     */
     public MilkDecorator(Coffee coffee) {
         super(coffee);
     }

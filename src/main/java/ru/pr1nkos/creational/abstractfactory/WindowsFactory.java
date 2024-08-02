@@ -1,5 +1,8 @@
 package ru.pr1nkos.creational.abstractfactory;
 
+/**
+ * The type Windows factory.
+ */
 public class WindowsFactory implements GuiFactory{
 
     @Override

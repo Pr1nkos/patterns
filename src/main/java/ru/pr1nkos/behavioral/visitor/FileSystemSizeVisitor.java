@@ -2,6 +2,9 @@ package ru.pr1nkos.behavioral.visitor;
 
 import lombok.Getter;
 
+/**
+ * The type File system size visitor.
+ */
 @Getter
 public class FileSystemSizeVisitor implements FileSystemVisitor {
     private int totalsize;

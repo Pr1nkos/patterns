@@ -2,6 +2,9 @@ package ru.pr1nkos.structural.composite;
 
 import lombok.AllArgsConstructor;
 
+/**
+ * The type Developer.
+ */
 @AllArgsConstructor
 public class Developer implements Employee{
     private String name;

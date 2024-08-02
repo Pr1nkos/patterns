@@ -1,5 +1,8 @@
 package ru.pr1nkos.behavioral.cor;
 
+/**
+ * The type Advanced support handler.
+ */
 public class AdvancedSupportHandler extends SupportHandler {
     @Override
     public void handleRequest(String request) {

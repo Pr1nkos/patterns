@@ -1,7 +1,16 @@
 package ru.pr1nkos.behavioral.mediator;
 
+/**
+ * The type User.
+ */
 public class UserImpl extends User {
 
+    /**
+     * Instantiates a new User.
+     *
+     * @param name     the name
+     * @param mediator the mediator
+     */
     public UserImpl(String name, ChatMediator mediator) {
         super(name, mediator);
     }

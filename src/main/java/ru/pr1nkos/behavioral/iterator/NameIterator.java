@@ -1,9 +1,23 @@
 package ru.pr1nkos.behavioral.iterator;
 
+/**
+ * The type Name iterator.
+ */
 public class NameIterator implements Iterator {
+    /**
+     * The Index.
+     */
     int index;
+    /**
+     * The Repo.
+     */
     NameRepository repo;
 
+    /**
+     * Instantiates a new Name iterator.
+     *
+     * @param nameRepository the name repository
+     */
     public NameIterator(NameRepository nameRepository) {
         repo = nameRepository;
     }

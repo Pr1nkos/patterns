@@ -8,16 +8,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * The type Directory.
+ */
 @Getter
 public class Directory implements FileSystemElement {
     private String name;
     private List<FileSystemElement> elements = new ArrayList<>();
 
+    /**
+     * Instantiates a new Directory.
+     *
+     * @param name the name
+     */
     public Directory(String name) {
         this.name = name;
     }
 
 
+    /**
+     * Add element.
+     *
+     * @param element the element
+     */
     public void addElement(FileSystemElement element) {
         elements.add(element);
     }

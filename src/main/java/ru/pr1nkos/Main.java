@@ -20,7 +20,15 @@ import ru.pr1nkos.structural.decorator.SugarDecorator;
 import java.io.File;
 
 
+/**
+ * The type Main.
+ */
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         /*
          *

@@ -2,6 +2,9 @@ package ru.pr1nkos.behavioral.observer;
 
 import lombok.AllArgsConstructor;
 
+/**
+ * The type User.
+ */
 @AllArgsConstructor
 public class User implements Observer {
     private String name;

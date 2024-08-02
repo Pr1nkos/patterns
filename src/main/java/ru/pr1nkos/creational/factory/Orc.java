@@ -1,5 +1,8 @@
 package ru.pr1nkos.creational.factory;
 
+/**
+ * The type Orc.
+ */
 public class Orc extends Enemy{
 
     @Override

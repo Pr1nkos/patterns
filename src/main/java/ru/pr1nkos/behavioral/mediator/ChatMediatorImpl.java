@@ -3,6 +3,9 @@ package ru.pr1nkos.behavioral.mediator;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Chat mediator.
+ */
 public class ChatMediatorImpl implements ChatMediator {
     private final List<User> users = new ArrayList<>();
 

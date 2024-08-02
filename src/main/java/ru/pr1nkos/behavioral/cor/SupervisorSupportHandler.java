@@ -1,5 +1,8 @@
 package ru.pr1nkos.behavioral.cor;
 
+/**
+ * The type Supervisor support handler.
+ */
 public class SupervisorSupportHandler extends SupportHandler {
     @Override
     public void handleRequest(String request) {

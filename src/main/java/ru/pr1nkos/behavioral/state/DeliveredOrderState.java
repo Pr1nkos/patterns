@@ -1,5 +1,8 @@
 package ru.pr1nkos.behavioral.state;
 
+/**
+ * The type Delivered order state.
+ */
 public class DeliveredOrderState implements OrderState {
     @Override
     public void next(OrderContext context) {

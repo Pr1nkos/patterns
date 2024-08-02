@@ -1,5 +1,8 @@
 package ru.pr1nkos.behavioral.cor;
 
+/**
+ * The type Basic support handler.
+ */
 public class BasicSupportHandler extends SupportHandler {
     @Override
     public void handleRequest(String request) {

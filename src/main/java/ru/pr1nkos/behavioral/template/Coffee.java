@@ -1,5 +1,8 @@
 package ru.pr1nkos.behavioral.template;
 
+/**
+ * The type Coffee.
+ */
 public class Coffee extends Beverage {
     @Override
     void brew() {

@@ -5,6 +5,9 @@ import lombok.Synchronized;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+/**
+ * The type App config.
+ */
 public class AppConfig {
     private static AppConfig instance;
     private Properties properties;
@@ -18,6 +21,11 @@ public class AppConfig {
         }
     }
 
+    /**
+     * Gets instance.
+     *
+     * @return the instance
+     */
     @Synchronized
     public static AppConfig getInstance() {
         if (instance != null) {
@@ -27,6 +35,12 @@ public class AppConfig {
         return instance;
     }
 
+    /**
+     * Gets property.
+     *
+     * @param key the key
+     * @return the property
+     */
     public String getProperty(String key) {
         return properties.getProperty(key);
     }
